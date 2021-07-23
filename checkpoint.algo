@@ -1,0 +1,20 @@
+    //déclaration
+    CHAR c;
+	INTEGER character;
+	INTEGER word;
+	INTEGER vowel;
+    //main
+	Write("write \n");
+    //block
+    REPEAT
+    Read (c)
+	  character=character+1;
+             //block
+             IF (c ==' ') THEN
+                 word=word+1;
+             ELSE_IF (c=='a'||c=='e'||c=='u'||c=='i'||c=='y'||c=='w') THEN
+                 vowel=vowel+1;
+             END_IF
+    UNTIL (c <> '.')
+	Write ("world=",word," \n vowel=",vowel," \n character=",character);
+	}
